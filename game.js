@@ -45,7 +45,7 @@ var foods = [];
 var playerName = 'Player';
 var isHost = false;
 var socket = null;
-var socketServerUrl = location.protocol + '//' + location.hostname + ':3001';
+var socketServerUrl = window.location.origin;
 var otherPlayers = {};
 
 var minimapSize = 150;
